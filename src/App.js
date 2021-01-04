@@ -66,8 +66,8 @@ function App() {
                 {/* title */}
                 <h1 style={{ width: '100%', textAlign: 'center', fontWeight: 300, marginTop: 4 }}>Assignment</h1>
                 {/* body */}
-                <main className="p-4 my-3 d-flex">
-                    <div className="col-2">
+                <main className="p-4 my-3 row m-0">
+                    <div className="col-6 col-md-2">
                         <section className="d-flex flex-column">
                             <label htmlFor="row">Row</label>
                             <input
@@ -99,7 +99,7 @@ function App() {
                             </button>
                         </section>
                     </div>
-                    <div className="col-3 p-1">
+                    <div className="col-6 col-md-3 p-4">
                         <section className="text-center p-2">
                             <i
                                 className="fas fa-arrow-up"
@@ -131,7 +131,7 @@ function App() {
                             ></i>
                         </section>
                     </div>
-                    <div className="col-7">
+                    <div className="col-12 col-sm-7 p-4">
                         <div style={{ border: 'solid 1px #666', width: 'fit-content' }}>
                             {mainArr.map((aRow, index) => {
                                 return (
