@@ -1,0 +1,19 @@
+.fas {
+    cursor: pointer;
+    font-size: 20px;
+}
+.fas:hover {
+    transform: scale(1.1);
+}
+.fas:active {
+    transform: scale(1);
+}
+.box {
+    width: 100px;
+    border: solid 1px #666;
+    font-size: 1vw;
+    /* color: transparent; */
+}
+.box.highlight {
+    background: radial-gradient(#eee, #ccc, #aaa);
+}
