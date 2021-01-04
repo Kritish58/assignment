@@ -1,10 +1,6 @@
 # Demo
 
-## what the hell
-
-```
 https://assignmnt.netlify.app/
-```
 
 # Installation
 
