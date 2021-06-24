@@ -153,6 +153,10 @@ function App() {
                     </div>
                 </main>
             </div>
+            <div style={{position:'absolute', bottom:10, width:'100%', display:'flex', justifyContent:'center'}}>
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="20" width="20" />
+                <a href="https://github.com/Kritish58" target="_blank">martian moon 🌕</a>
+            </div>
         </>
     );
 }
